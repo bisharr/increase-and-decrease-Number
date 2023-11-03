@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 10px === 1rem */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: rgba(230, 222, 222, 0.815);
+}
+
+.container {
+  max-width: 80rem;
+
+  text-align: center;
+  margin: 10rem auto;
+}
+
+.btn {
+  padding: 0.5rem 1.2rem;
+
+  margin-top: 2rem;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: 1px solid grey;
+}
+.reset-btn {
+  background-color: rgba(0, 128, 0, 0.804);
+  color: white;
+}
+.increase-btn {
+  background-color: rgba(30, 143, 255, 0.72);
+  color: white;
+  outline: none;
+}
+.decrease-btn {
+  background-color: rgba(255, 0, 0, 0.841);
+  color: white;
+}
+.number {
+  font-size: 4rem;
+  text-align: center;
+}
