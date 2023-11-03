@@ -16,8 +16,12 @@ increaseBtnEl.addEventListener('click', function () {
 });
 
 decreaseBtnEl.addEventListener('click', () => {
-  numberFunction--;
-  numberEl.textContent = numberFunction;
+  if (numberFunction > 0) {
+    numberFunction--;
+    numberEl.textContent = numberFunction;
+  } else {
+    numberEl.textContent = '⛔';
+  }
 });
 
 resetBtnEl.addEventListener('click', function () {

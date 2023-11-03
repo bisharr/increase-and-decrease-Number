@@ -27,7 +27,9 @@ body {
   margin-right: 1rem;
   font-size: 1.2rem;
   border-radius: 1rem;
-  border: 1px solid grey;
+  border: none;
+  font-size: 2.4rem;
+  cursor: pointer;
 }
 .reset-btn {
   background-color: rgba(0, 128, 0, 0.804);
@@ -43,6 +45,6 @@ body {
   color: white;
 }
 .number {
-  font-size: 4rem;
+  font-size: 7rem;
   text-align: center;
 }
